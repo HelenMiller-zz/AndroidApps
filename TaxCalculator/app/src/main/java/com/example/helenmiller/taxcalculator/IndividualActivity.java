@@ -10,7 +10,7 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 
 public class IndividualActivity extends AppCompatActivity {
-    double finalTaxDue = 0; // variable to hold final tax due amount
+    double finalTaxDue; // variable to hold final tax due amount
     double incomeEntered;  //  variable to hold the income the user enterd in the EditText
 
 
@@ -29,7 +29,7 @@ public class IndividualActivity extends AppCompatActivity {
             public void onClick(View v) {
                 final EditText individualIncomeEntered = ((EditText) findViewById(R.id.txtEnterIncome));
 
-                incomeEntered = Integer.parseInt(individualIncomeEntered.getText().toString()); // parsing user input from String to int
+                incomeEntered = Double.parseDouble(individualIncomeEntered.getText().toString()); // parsing user input from String to int
 
                 DecimalFormat currency = new DecimalFormat("$###,###.##"); // creating currency object to format tax due
 
@@ -39,7 +39,7 @@ public class IndividualActivity extends AppCompatActivity {
                 }
                 else if ( incomeEntered > 9275 && incomeEntered <= 37650 )
                 {
-                    finalTaxDue = 927.5 + ((incomeEntered-9275) * .15);
+                    finalTaxDue = 927.5 + ((incomeEntered - 9275) * .15);
                     taxDue.setText(currency.format(finalTaxDue));
                     // sets the text on the taxDue TextView
                 }

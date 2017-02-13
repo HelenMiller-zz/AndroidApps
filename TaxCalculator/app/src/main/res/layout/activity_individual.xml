@@ -24,41 +24,11 @@
         android:layout_marginTop="11dp">
 
         <TextView
-            android:text="@string/txtCalculate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="67dp"
-            android:id="@+id/calculateLabel"
-            android:textSize="24sp"
-            android:layout_above="@+id/btnSubmit"
-            android:layout_alignParentStart="true" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:ems="10"
-            android:layout_marginTop="167dp"
-            android:id="@+id/txtEnterIncome"
-            android:hint="@string/edtIncome"
-            android:textSize="30sp"
-            android:layout_below="@+id/TaxDue"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:text="@string/Submit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnSubmit"
-            android:layout_below="@+id/txtEnterIncome"
-            android:layout_alignParentStart="true" />
-
-        <TextView
             android:text="@string/txtTaxDue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/TaxDue"
-            android:textSize="66sp"
+            android:textSize="56sp"
             android:backgroundTint="@android:color/holo_green_light"
             android:typeface="sans"
             android:layout_alignParentTop="true"
@@ -74,6 +44,35 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="177dp"
             android:id="@+id/textView5" />
+
+        <Button
+            android:text="@string/Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSubmit"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/txtCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calculateLabel"
+            android:textSize="24sp"
+            android:layout_above="@+id/btnSubmit"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/txtEnterIncome"
+            android:hint="@string/edtIncome"
+            android:textSize="30sp"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="38dp" />
 
     </RelativeLayout>
 
