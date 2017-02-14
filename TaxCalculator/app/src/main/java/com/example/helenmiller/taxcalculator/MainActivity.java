@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (spinnerSelection.equals("Yes"))
                 {
+
                     startActivity(new Intent(MainActivity.this, MarriedActivity.class));
                 }
                 else {

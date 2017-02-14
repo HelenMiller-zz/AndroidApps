@@ -23,13 +23,17 @@ public class TaxBrackets {
                 // Tax Rate
                 {0.10, 0.15, 0.25, 0.28, 0.33, 0.35, 0.396},
                 // Minimum Tax
-                {0, 18550, 75300, 151900, 231450, 413350, 466950}
+                {0, 1855, 10367.5, 29517.50 , 51791.50 , 111818.50 , 130578.50 }
         };
 
         if (isMarried == true)
-            incomeEntered = incomeEntered - 12600 ;
+            incomeEntered = incomeEntered - 12600;
         else
             incomeEntered = incomeEntered - 6300;
+
+        if (incomeEntered < 0)
+            incomeEntered = 0;
+
         double taxData[][];
 
         if (isMarried == true)
@@ -39,15 +43,24 @@ public class TaxBrackets {
 
         for (int i = 0; i < 7; i++) {
             if (incomeEntered <= taxData[0][i]) {
-                taxDue = incomeEntered * taxData[1][i] + taxData[2][i];
+                double taxableAmount;
+
+                if (i==0)
+                {
+                    taxableAmount = incomeEntered;
+                }
+                else
+                {
+                    taxableAmount = incomeEntered - taxData[0][i-1];
+                }
+
+                taxDue = taxableAmount * taxData[1][i] + taxData[2][i];
                 break;
             }
         }
         return taxDue;
     }
 }
-
-
 
             /*
 
