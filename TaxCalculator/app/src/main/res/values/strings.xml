@@ -2,6 +2,8 @@
     <string name="app_name">Taxinator 3000</string>
     <string name="txtTitle">Are you married?</string>
     <string name="txtSelect">Select One</string>
+    <string name="txtMarry">Married</string>
+    <string name="txtIndividual">Individual</string>
 
 
     <string name="txtCalculate">Calculate your taxes</string>

@@ -10,7 +10,6 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 
 public class IndividualActivity extends AppCompatActivity {
-    // variable to hold final tax due amount
 
 
     @Override
