@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,9 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         final Spinner isMarried = (Spinner)findViewById(R.id.married);
 
-        Button button = (Button) findViewById(R.id.btnSubmit);
+        Button button = (Button) findViewById(R.id.btnSubmitM);
         button.setOnClickListener(new View.OnClickListener()
         {
+
             public void onClick(View v)
             {
                 final String spinnerSelection = isMarried.getSelectedItem().toString();
@@ -51,14 +53,14 @@ public class MainActivity extends AppCompatActivity {
         testTax(9265, true, true);
         testTax(350000, true, true);
         // Test Married without Deduction
-        Log.d("Tax Calc", "*******Test Married without Deduction******");
+        Log.d("Tax Calc", "*******Test Married without Deduction");
         testTax(0, true, false);
         testTax(1, true, false);
-        testTax(9274, true, false);
-        testTax(9276, true, false);
+        testTax(18550, true, false);
+        testTax(18551, true, false);
         testTax(0, true, false);
-        testTax(0, true, false);
-        testTax(0, true, false);
+        testTax(4600098, true, false);
+        testTax(99999999, true, false);
 
         // Test Single without Deduction
 

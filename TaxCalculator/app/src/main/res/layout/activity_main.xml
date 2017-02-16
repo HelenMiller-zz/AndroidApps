@@ -26,14 +26,14 @@
         android:id="@+id/married"
         android:entries="@array/txtMarried"
         android:layout_marginBottom="11dp"
-        android:layout_above="@+id/btnSubmit"
+        android:layout_above="@+id/btnSubmitM"
         android:layout_alignParentStart="true" />
 
     <Button
         android:text="@string/Submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSubmit"
+        android:id="@+id/btnSubmitM"
         android:layout_marginBottom="59dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />

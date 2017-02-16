@@ -34,7 +34,8 @@ public class TaxBrackets {
                 {0, 1855, 10367.5, 29517.50 , 51791.50 , 111818.50 , 130578.50 }
         };
 
-        if (takeDeduction == true) {
+        if (takeDeduction == true)
+        {
             if (isMarried == true)
                 incomeEntered = incomeEntered - 12600;
             else

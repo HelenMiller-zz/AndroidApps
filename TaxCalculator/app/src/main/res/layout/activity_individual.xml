@@ -42,22 +42,25 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="38dp" />
 
-        <TextView
-            android:text="@string/txtCalculate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/calculateLabel"
-            android:textSize="24sp"
-            android:layout_above="@+id/btnSubmit"
-            android:layout_marginBottom="56dp" />
-
         <Button
-            android:text="@string/Submit"
+            android:text="@string/btnCalculate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnSubmit"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="30dp" />
+            android:layout_marginBottom="30dp"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:text="@string/rdioTakeDeduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEnterIncome"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/radioTakeDeduction"
+            android:textSize="18sp" />
+
 
 </RelativeLayout>

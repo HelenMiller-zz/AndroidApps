@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import java.text.DecimalFormat;
@@ -27,11 +28,23 @@ public class IndividualActivity extends AppCompatActivity {
 
             public void onClick(View v) {
 
+                boolean takeDeduction;
+
+                final RadioButton isDeductionChecked = (RadioButton) findViewById(R.id.radioTakeDeduction);
+                if (isDeductionChecked.isChecked())
+                {
+                    takeDeduction = true;
+                }
+                else
+                {
+                    takeDeduction = false;
+                }
+
                 double incomeEntered = Double.parseDouble(individualIncomeEntered.getText().toString()); // parsing user input from String to int
 
                 DecimalFormat currency = new DecimalFormat("$###,###.##"); // creating currency object to format tax due
 
-                taxDue.setText(currency.format(TaxBrackets.getTaxBurden(incomeEntered, false, false)));
+                taxDue.setText(currency.format(TaxBrackets.getTaxBurden(incomeEntered, false, takeDeduction)));
             }
 
         });
