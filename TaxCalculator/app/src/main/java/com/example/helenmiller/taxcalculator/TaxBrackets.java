@@ -4,13 +4,21 @@ package com.example.helenmiller.taxcalculator;
 
 public class TaxBrackets {
 
-    public static double getTaxBurden(double incomeEntered, boolean isMarried) {
+    public static double getTaxBurden(double incomeEntered, boolean isMarried, boolean takeDeduction) {
+
+        // Using these to make Array values easier to read in algorithm
+        final int BRACKET = 0; //is it ok to use all caps here?
+        final int TAXRATE = 1;
+        final int MINIMUM = 2;
+
+
+
 
         double taxDue = 0;
 
         final double taxDataIndividual[][] = {
                 // Tax Bracket cutoff
-                {9275, 37650, 91150, 190150, 413350, 415050, 415351},
+                {9275, 37650, 91150, 190150, 413350, 415050, Double.MAX_VALUE},
                 // Tax Rate
                 {0.10, 0.15, 0.25, 0.28, 0.33, 0.35, 0.396},
                 // Minimum Tax
@@ -19,20 +27,23 @@ public class TaxBrackets {
 
         final double taxDataMarried[][] = {
                 // Tax Bracket cutoff
-                {18550, 75300, 151900, 231450, 413350, 466950, 466951},
+                {18550, 75300, 151900, 231450, 413350, 466950, Double.MAX_VALUE},
                 // Tax Rate
                 {0.10, 0.15, 0.25, 0.28, 0.33, 0.35, 0.396},
                 // Minimum Tax
                 {0, 1855, 10367.5, 29517.50 , 51791.50 , 111818.50 , 130578.50 }
         };
 
-        if (isMarried == true)
-            incomeEntered = incomeEntered - 12600;
-        else
-            incomeEntered = incomeEntered - 6300;
+        if (takeDeduction == true) {
+            if (isMarried == true)
+                incomeEntered = incomeEntered - 12600;
+            else
+                incomeEntered = incomeEntered - 6300;
+        }
 
         if (incomeEntered < 0)
             incomeEntered = 0;
+
 
         double taxData[][];
 
@@ -42,7 +53,7 @@ public class TaxBrackets {
             taxData = taxDataIndividual;
 
         for (int i = 0; i < 7; i++) {
-            if (incomeEntered <= taxData[0][i]) {
+            if (incomeEntered <= taxData[BRACKET][i]) {
                 double taxableAmount;
 
                 if (i==0)
@@ -51,10 +62,10 @@ public class TaxBrackets {
                 }
                 else
                 {
-                    taxableAmount = incomeEntered - taxData[0][i-1];
+                    taxableAmount = incomeEntered - taxData[BRACKET][i-1];
                 }
 
-                taxDue = taxableAmount * taxData[1][i] + taxData[2][i];
+                taxDue = taxableAmount * taxData[TAXRATE][i] + taxData[MINIMUM][i];
                 break;
             }
         }

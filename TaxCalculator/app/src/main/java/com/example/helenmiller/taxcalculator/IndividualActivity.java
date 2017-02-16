@@ -31,7 +31,7 @@ public class IndividualActivity extends AppCompatActivity {
 
                 DecimalFormat currency = new DecimalFormat("$###,###.##"); // creating currency object to format tax due
 
-                taxDue.setText(currency.format(TaxBrackets.getTaxBurden(incomeEntered, false)));
+                taxDue.setText(currency.format(TaxBrackets.getTaxBurden(incomeEntered, false, false)));
             }
 
         });
