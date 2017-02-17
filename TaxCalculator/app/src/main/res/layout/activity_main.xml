@@ -18,7 +18,8 @@
         android:layout_marginBottom="52dp"
         android:id="@+id/title"
         android:textSize="30sp"
-        android:layout_alignBottom="@+id/married" />
+        android:layout_alignBottom="@+id/married"
+        android:textColor="@color/colorPrimaryDark" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -45,6 +46,8 @@
         android:id="@+id/btnSubmitM"
         android:layout_marginBottom="42dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimary"
+        android:backgroundTint="?android:attr/textColorHighlightInverse" />
 
 </RelativeLayout>
