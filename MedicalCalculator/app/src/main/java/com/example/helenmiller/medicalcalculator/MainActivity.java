@@ -70,6 +70,10 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
+                weight.setText(null);
+
+
+
 
 
 
