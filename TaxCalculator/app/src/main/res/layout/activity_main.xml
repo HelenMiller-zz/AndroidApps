@@ -30,15 +30,6 @@
         android:layout_above="@+id/btnSubmitM"
         android:layout_alignParentStart="true" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/sammy"
-        android:id="@+id/imageView2"
-        android:layout_above="@+id/title"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="100dp" />
-
     <Button
         android:text="@string/Submit"
         android:layout_width="wrap_content"
@@ -47,7 +38,15 @@
         android:layout_marginBottom="42dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:textColor="@color/colorPrimary"
-        android:backgroundTint="?android:attr/textColorHighlightInverse" />
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sam"
+        android:id="@+id/imageView2"
+        android:layout_marginBottom="108dp"
+        android:layout_above="@+id/title"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

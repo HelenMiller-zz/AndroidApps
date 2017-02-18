@@ -40,27 +40,48 @@
             android:textSize="30sp"
             android:layout_below="@+id/textView5"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="38dp" />
+            android:layout_marginTop="38dp"
+            android:gravity="center_horizontal" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSubmit"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="21dp">
+
+                <RadioButton
+                    android:text="@string/rdioTakeDeduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_below="@+id/txtEnterIncome"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/radioTakeDeduction"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:text="@string/rdioTNoDeduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radioTakeDeduction"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/radioNoDeduction"
+                    android:textSize="18sp"
+                    android:layout_weight="1" />
+        </RadioGroup>
 
         <Button
             android:text="@string/btnCalculate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnSubmit"
+            android:layout_marginBottom="26dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="30dp"
-            android:textSize="18sp" />
-
-        <RadioButton
-            android:text="@string/rdioTakeDeduction"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txtEnterIncome"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="40dp"
-            android:id="@+id/radioTakeDeduction"
-            android:textSize="18sp" />
+            android:layout_marginStart="51dp" />
 
 
 </RelativeLayout>

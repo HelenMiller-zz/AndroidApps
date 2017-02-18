@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.helenmiller.currencyconverter.MainActivity">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:text="@string/radEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEnterAmount"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:id="@+id/radEuro"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:text="@string/radPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radEuro"
+            android:layout_alignStart="@+id/radEuro"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radPesos"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:text="@string/radCanadian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radPesos"
+            android:layout_alignStart="@+id/radPesos"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radCanada"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtEnterAmount"
+        android:hint="@string/txtEnterAmount"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="76dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="@string/txtChooseCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="33dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/txtEnterAmount"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/txthint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/txtResult"
+        android:textSize="36sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConvert"
+        android:layout_above="@+id/txtResult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:textSize="24sp" />
+
+</RelativeLayout>
