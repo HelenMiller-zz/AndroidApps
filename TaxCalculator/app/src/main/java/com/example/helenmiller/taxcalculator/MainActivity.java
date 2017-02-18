@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
+
         final Spinner isMarried = (Spinner)findViewById(R.id.married);
 
         Button button = (Button) findViewById(R.id.btnSubmitM);
@@ -32,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
                 if (spinnerSelection.equals("Yes"))
                 {
-
                     startActivity(new Intent(MainActivity.this, MarriedActivity.class));
                 }
                 else {

@@ -39,7 +39,7 @@ public class MarriedActivity extends AppCompatActivity {
 
                 double incomeEntered = Double.parseDouble(individualIncomeEntered.getText().toString()); // parsing user input from String to int
 
-                DecimalFormat currency = new DecimalFormat("$###,###.##"); // creating currency object to format tax due
+                DecimalFormat currency = new DecimalFormat("$###,###.00"); // creating currency object to format tax due
 
                 taxDue.setText(currency.format(TaxBrackets.getTaxBurden(incomeEntered, true, takeDeductionM)));
             }

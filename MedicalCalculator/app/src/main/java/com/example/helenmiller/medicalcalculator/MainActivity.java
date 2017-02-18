@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText weight = (EditText) findViewById(R.id.txtWeight);
         final TextView result = (TextView) findViewById(R.id.txtResult);
 
+
         Button convert = (Button) findViewById(R.id.btnConvert);
         convert.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
