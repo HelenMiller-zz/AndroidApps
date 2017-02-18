@@ -66,8 +66,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else
                     {
-                        Toast.makeText(MainActivity.this, "Kilos must be less than 225",
-                                Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "Kilos must be less than 225",Toast.LENGTH_LONG).show();
                     }
                 }
 

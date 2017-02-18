@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.DecimalFormat;
 
@@ -28,23 +29,26 @@ public class IndividualActivity extends AppCompatActivity {
 
             public void onClick(View v) {
 
-                boolean takeDeduction;
+                if (individualIncomeEntered.length() == 0) {
+                    Toast.makeText(IndividualActivity.this, "You must enter an income", Toast.LENGTH_LONG).show();
 
-                final RadioButton isDeductionChecked = (RadioButton) findViewById(R.id.radioTakeDeduction);
-                if (isDeductionChecked.isChecked())
-                {
-                    takeDeduction = true;
+                } else {
+
+                    boolean takeDeduction;
+
+                    final RadioButton isDeductionChecked = (RadioButton) findViewById(R.id.radioTakeDeduction);
+                    if (isDeductionChecked.isChecked()) {
+                        takeDeduction = true;
+                    } else {
+                        takeDeduction = false;
+                    }
+
+                    double incomeEntered = Double.parseDouble(individualIncomeEntered.getText().toString()); // parsing user input from String to int
+
+                    DecimalFormat currency = new DecimalFormat("$###,###.00"); // creating currency object to format tax due
+
+                    taxDue.setText(currency.format(TaxBrackets.getTaxBurden(incomeEntered, false, takeDeduction)));
                 }
-                else
-                {
-                    takeDeduction = false;
-                }
-
-                double incomeEntered = Double.parseDouble(individualIncomeEntered.getText().toString()); // parsing user input from String to int
-
-                DecimalFormat currency = new DecimalFormat("$###,###.00"); // creating currency object to format tax due
-
-                taxDue.setText(currency.format(TaxBrackets.getTaxBurden(incomeEntered, false, takeDeduction)));
             }
 
         });
