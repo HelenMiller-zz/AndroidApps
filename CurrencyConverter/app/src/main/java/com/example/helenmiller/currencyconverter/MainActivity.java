@@ -37,54 +37,48 @@ public class MainActivity extends AppCompatActivity {
         Button convert = (Button) findViewById(R.id.btnConvert);
         convert.setOnClickListener(new View.OnClickListener()
         {
-            public void onClick(View v)
-            {
-                double resultAmount = 0;
-                double amountEntered;
-                int countryId =0;
-                String countryCurrency = "";
+            public void onClick(View v) {
+
+                if (usDollarsEntered.length() == 0) {
+                    Toast.makeText(MainActivity.this, "You must enter a dollar amount", Toast.LENGTH_LONG).show();
+
+                } else {
+                    double resultAmount = 0;
+                    double amountEntered;
+                    int countryId = 0;
+                    String countryCurrency = "";
 
 
-                if(usDollarsEntered.getText().toString() == "")
-                {
-                    Toast.makeText(MainActivity.this, "You must enter an amount to convert", Toast.LENGTH_LONG).show();
+                    if (usDollarsEntered.getText().toString() == "") {
+                        Toast.makeText(MainActivity.this, "You must enter an amount to convert", Toast.LENGTH_LONG).show();
+                    }
+
+                    amountEntered = Double.parseDouble(usDollarsEntered.getText().toString());
+
+                    DecimalFormat currency = new DecimalFormat("$###,###,###.00");
+
+
+                    if (amountEntered > 100000 || amountEntered < 0) {
+                        Toast.makeText(MainActivity.this, "Amount must be less than $100,000.00", Toast.LENGTH_LONG).show();
+                    } else {
+                        if (peso.isChecked()) {
+                            countryId = 1;
+                            countryCurrency = " \nPesos";
+
+                        } else if (euro.isChecked()) {
+                            countryId = 2;
+                            countryCurrency = " \nEuros";
+                        } else {
+                            countryId = 3;
+                            countryCurrency = " \nCanadian Dollars";
+                        }
+                    }
+
+                    //result.setText(currency.format(resultAmount) + currencyType);
+                    result.setText(Conversions.convertCurrency(amountEntered, countryId) + countryCurrency);
+
+
                 }
-
-                amountEntered = Double.parseDouble(usDollarsEntered.getText().toString());
-
-                DecimalFormat currency = new DecimalFormat("$###,###,###.00");
-
-
-
-               if(amountEntered > 100000 || amountEntered < 0)
-               {
-                   Toast.makeText(MainActivity.this, "Amount must be less than $100,000.00", Toast.LENGTH_LONG).show();
-               }
-                else
-               {
-                   if(peso.isChecked())
-                   {
-                       countryId = 1;
-                       countryCurrency = " \nPesos";
-
-                   }
-                   else if(euro.isChecked())
-                   {
-                       countryId = 2;
-                       countryCurrency = " \nEuros";
-                   }
-                   else
-                   {
-                       countryId = 3;
-                       countryCurrency = " \nCanadian Dollars";
-                   }
-               }
-
-                //result.setText(currency.format(resultAmount) + currencyType);
-                result.setText(Conversions.convertCurrency(amountEntered, countryId) + countryCurrency);
-
-
-
             }
 
 
