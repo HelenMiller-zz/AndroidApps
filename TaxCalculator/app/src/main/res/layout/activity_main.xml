@@ -9,7 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.helenmiller.taxcalculator.MainActivity">
+    tools:context="com.example.helenmiller.taxcalculator.MainActivity"
+    android:theme="@style/Base.AlertDialog.AppCompat.Light">
 
     <TextView
         android:text="@string/txtTitle"

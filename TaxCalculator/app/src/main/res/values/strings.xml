@@ -3,7 +3,7 @@
     <string name="txtTitle">Are you married?</string>
     <string name="txtSelect">Select One</string>
     <string name="txtMarry">Married</string>
-    <string name="txtIndividual">Individual</string>
+    <string name="txtIndividual">Individual Tax Due</string>
 
 
     <string name="txtCalculate">Calculate your taxes</string>
@@ -21,6 +21,7 @@
     <string name="rdioTakeDeduction">Yes</string>
     <string name="rdioTNoDeduction">No</string>
     <string name="btnCalculate">CALCULATE TAX DUE</string>
+    <string name="txtTakeDeduction">Do you want to take the standard deduction?</string>
 
 
 </resources>
