@@ -11,7 +11,12 @@
     tools:context="com.example.helenmiller.cityguide.MainActivity">
 
     <TextView
+        android:layout_height="fill_parent"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/travel"
+        android:textSize="20sp"
+        android:text="@+id/travel"
+        android:drawableLeft="@drawable/ic_launcher_chicago" />
+
+
 </RelativeLayout>
