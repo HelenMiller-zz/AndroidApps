@@ -25,8 +25,8 @@ public class MainActivity extends ListActivity
         setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_main, R.id.travel, attraction));
 
 
-
     }
+
     protected void onListItemClick(ListView l, View v, int position, long id)
     {
         switch(position) {

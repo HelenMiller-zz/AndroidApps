@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Tech Gadget</string>
+    <string name="btnAlexa">Buy the Amazon Echo</string>
+    <string name="btnIphone">Buy the iPhone 7</string>
+    <string name="btnFitBit">Buy the Fit Bit</string>
+    <string name="btnNest">Buy the Nest</string>
+    <string name="btnSurface">Buy the Surface Pro 4</string>
 </resources>
