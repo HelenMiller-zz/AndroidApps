@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_d13a2ef96c17336019be1f6d39ba645f692d74b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_223f3210d9a66d731bd35ebe7381949a0741133f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_81c49996d76c4cf308e9f2de939cbb5c2750c719/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_5604b0b5cfad6ca7910cc86ebfb325218e8839fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7663cf73732ade413479f6ae0eb4d527350a6991">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0ea1e094467deaf2d14359a9a41a2cd086aa069d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_e9a47d9dd78c00dae489667717757eadb63cadc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dc5b1e188368dbafdc479e9fd4754830bae6366a">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3e417dfaae73f04091ff35dec9008599544117d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_3baa2a0575e24054a1348c8b759881b88454bc2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_9e7ac6ee1f82c38b8e175668ed81ba50c365158b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_65605d590f703f964e20abf4327fd76d9bfa2bff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_fb5a6f60cb733e99b05977b3b40020ac22c7d598/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/helenmiller/AndroidProjects/AlohaMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_720c24f9cfd603fcf17bdafe4ed1a9e877a1eb9e/classes.dex" />
+    </item>
+
+</items>
