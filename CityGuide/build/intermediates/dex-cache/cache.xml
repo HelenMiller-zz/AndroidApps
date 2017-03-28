@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/c55255effb9c5919578fd1f423570b6215bcbafa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a27beeac1c29c0df5ec72cb51e8bd1fd34f35547/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/ba23b41803ab74aaa6a891f51b4c53fe041f435a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b39169b7e1e5a189dc4b366260975fbdc77fb21b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/ba3adb904dee23cff15d6720cfe665d09d2505c9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4536fba8502fff78df9aa29327e9f6e15f817436/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/37d11a766c2d34d8764dcc45740c94a52f59a0a8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7729f85dcf58f9650ab6934dbba51319e02cb7e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/b8cd6a5517f443c1533638a594f57366e286c34c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ed0b1ac4b3f672ccb899c508b0a099003fc88ba2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac2003ac87ffae17a12f419a0b88d591d3df5df2">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_65febc76d8a0cacf4b2d3cd50a820b27635cf41b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/308ce8787419afe19399e97ca7146caa4d925fe0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fea048c33a9979b2624b8f7d263038c06a4d0ea7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/a4c5047d4810ce89d8a4d64794988aef6ed595bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3ec55f1e72010fa29109e016525291b917b883c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6f6726570fc44e5ee0eb373fa49a11dee9d6b8a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_1eb5997d3e9f0c6ed2cab4bac060b98a09a3f955/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/5bb054faa926134c2dd44679323f11e7fca95d69/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eaab0aefdf2e18b5d4abe646209fe7fba6222504/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/helenmiller/.android/build-cache/8ded69e94d451eab9602b020a8f041d9489fd14c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/helenmiller/AndroidApps/CityGuide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_28cc539191a8c24b5889f548fd074ce7ddaf6a85/classes.dex" />
+    </item>
+
+</items>
