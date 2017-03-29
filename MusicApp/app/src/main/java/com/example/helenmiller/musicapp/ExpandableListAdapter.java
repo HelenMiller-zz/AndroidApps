@@ -77,7 +77,6 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter
         lblListHeader.setText(headerTitle);
 
         return convertView;
-
     }
 
     @Override
@@ -97,6 +96,6 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter
 
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
-        return false;
+        return true;
     }
 }
