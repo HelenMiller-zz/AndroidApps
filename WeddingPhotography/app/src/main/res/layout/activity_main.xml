@@ -5,27 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.helenmiller.endangeredspecies.MainActivity"
-    android:weightSum="1">
+
+    tools:context="com.example.helenmiller.weddingphotography.MainActivity">
 
     <GridView
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:numColumns="3"
+        android:layout_height="336dp"
+        android:numColumns="2"
         android:columnWidth="160dp"
         android:horizontalSpacing="5dp"
         android:verticalSpacing="5dp"
-        android:layout_marginBottom="61dp"
-        android:id="@+id/gridViewAnimals">
+        android:layout_marginBottom="81dp"
+        android:id="@+id/gridViewPhotos">
     </GridView>
 
     <ImageView
         android:id="@+id/imgLarge"
         android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
         android:contentDescription="@string/ImgLarge"
-        android:layout_weight="0.00" />
+        android:layout_width="70dp" />
 
 </LinearLayout>
