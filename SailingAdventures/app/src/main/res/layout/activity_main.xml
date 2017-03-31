@@ -44,6 +44,25 @@
                     android:text="@string/txtDescription"
                     android:textSize="30sp" />
             </TableRow>
+            <TableRow>
+                <View android:layout_height="50dp" />
+                <Button
+                    android:id="@+id/btnDate"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="20dp"
+                    android:text="@string/btnDate"
+                    android:textSize="36sp" />
+            </TableRow>
+            <TableRow>
+                <View android:layout_height="60dp" />
+                <TextView
+                    android:id="@+id/txtReservation"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:textSize="36sp" />
+            </TableRow>
+
         </TableLayout>
 
 
