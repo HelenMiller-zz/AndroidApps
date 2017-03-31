@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".AlbumActivity" />
+        <activity android:name=".ShakedownActivity" />
         <activity android:name=".SongActivity"></activity>
     </application>
 

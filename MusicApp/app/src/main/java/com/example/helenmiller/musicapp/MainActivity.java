@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 if(groupPosition==1 && childPosition==0)
                 {
-                    Intent i = new Intent(MainActivity.this, AlbumActivity.class);
+                    Intent i = new Intent(MainActivity.this, ShakedownActivity.class);
                     /*i.putExtra("groupPosition", groupPosition);
                     i.putExtra("childPosition", childPosition);*/
                    /* if (groupPosition == 0){

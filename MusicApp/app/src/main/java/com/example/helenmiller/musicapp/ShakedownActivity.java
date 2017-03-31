@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AlbumActivity extends ListActivity {
+public class ShakedownActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,7 @@ public class AlbumActivity extends ListActivity {
 
         setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_album, R.id.txtSongs, songsShakedown));
 
- /*
+
         //lists of Album Songs
         String[] songsDookie =
                 {
@@ -63,7 +63,7 @@ public class AlbumActivity extends ListActivity {
                 {
                         "Rift", "Fast Enough For You", "Maze", "Sparkle", "Horn", "The Wedge", "My Friend, My Friend", "Weigh", "All Things Reconsidered", "Mound", "It's Ice", "The Horse", "Silent in the Morning"
                 };
-    }*/
-
     }
+
 }
+
