@@ -44,7 +44,7 @@ public class AlbumActivity extends ListActivity {
 
 
 
-        setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_album, R.id.listSongs, songsShakedown));
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_album, R.id.txtSongs, songsShakedown));
 
  /*
         //lists of Album Songs
