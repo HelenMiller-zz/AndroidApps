@@ -18,7 +18,12 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".ShakedownActivity" />
-        <activity android:name=".SongActivity"></activity>
+        <activity android:name=".SongActivity" />
+        <activity android:name=".RiftActivity" />
+        <activity android:name=".DookieActivity" />
+        <activity android:name=".LetItBeActivity" />
+        <activity android:name=".GratefulDeadImagesActivity" />
+        <activity android:name=".GreendayImagesActivity"></activity>
     </application>
 
 </manifest>
