@@ -79,9 +79,23 @@ public class MainActivity extends AppCompatActivity {
                     }*/
                    startActivity(i);
                 }
+                else if(groupPosition==1 && childPosition==1)
+                {
+                    Intent i = new Intent(MainActivity.this, RiftActivity.class);
+                    startActivity(i);
+                }
+                else if(groupPosition==0 && childPosition==0)
+                {
+                    Intent i = new Intent(MainActivity.this, DookieActivity.class);
+                    startActivity(i);
+                }
+                else
+                {
+                    Intent i = new Intent(MainActivity.this, LetItBeActivity.class);
+                    startActivity(i);
+                }
                 return true;
             }
-
         });
     }
 }
