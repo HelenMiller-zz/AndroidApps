@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.helenmiller.electriccarfinancing.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle"
+        android:id="@+id/txtTitle"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteY="35dp"
+        tools:layout_editor_absoluteX="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtYears"
+        android:textSize="25sp"
+        android:hint="@string/hint1"
+        tools:layout_editor_absoluteY="103dp"
+        tools:layout_editor_absoluteX="32dp"
+        android:layout_above="@+id/txtLoan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtLoan"
+        android:textSize="25sp"
+        android:hint="@string/hint2"
+        tools:layout_editor_absoluteY="168dp"
+        tools:layout_editor_absoluteX="32dp"
+        android:layout_above="@+id/txtInterest"
+        android:layout_alignRight="@+id/txtTitle"
+        android:layout_alignEnd="@+id/txtTitle"
+        android:layout_marginBottom="11dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtInterest"
+        android:textSize="25sp"
+        android:hint="@string/hint3"
+        tools:layout_editor_absoluteY="230dp"
+        tools:layout_editor_absoluteX="32dp"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/btnPayment"
+        android:layout_alignLeft="@+id/txtLoan"
+        android:layout_alignStart="@+id/txtLoan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPayment"
+        android:id="@+id/btnPayment"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteY="299dp"
+        tools:layout_editor_absoluteX="48dp"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/imgOpening"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="364dp"
+        android:layout_height="141dp"
+        android:id="@+id/imgOpening"
+        android:contentDescription="@string/imgDescription"
+        android:src="@drawable/opening"
+        tools:layout_editor_absoluteY="377dp"
+        tools:layout_editor_absoluteX="-9dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp" />
+
+</RelativeLayout>
